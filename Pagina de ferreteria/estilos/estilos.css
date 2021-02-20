@@ -1,0 +1,105 @@
+* {
+  font-family: "Raleway", sans-serif;
+  box-sizing: content-box;
+}
+
+*::selection {
+  background-color: #000;
+  color: #ebe80c;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* navbar */
+
+.navbar {
+  background-color: #000;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+}
+
+.navbar__item {
+  text-decoration: none;
+  padding: 12px;
+  color: #ebe80c;
+  font-weight: 600;
+  transition: 0.3s ease all;
+}
+
+.navbar__item:hover {
+  background-color: #ebe80c;
+  color: #000;
+}
+
+/* Header */
+
+.header {
+  background-image: url(../Imagenes/fachada.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  min-height: 93.6vh;
+  display: flex;
+}
+
+.titulo {
+  text-align: center;
+  margin: 0;
+}
+
+.header__texto {
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 0 auto;
+}
+
+.boton {
+  text-decoration: none;
+  color: #000;
+  background-color: #ebe80c;
+  padding: 10px;
+  outline: none;
+  border-radius: 20px;
+  transition: 0.3s ease all;
+}
+
+.boton-header:hover {
+  background-color: #d0ce11;
+}
+
+/* About us */
+
+.nosotros {
+  background-color: #ebe80c;
+  margin: 0;
+}
+
+.nosotros__titulo {
+  font-size: 30px;
+}
+
+.nosotros__contenido {
+  display: flex;
+}
+
+.nosotros__img {
+  width: 25em;
+  height: 40%;
+  margin: 10px;
+}
+
+.nosotros__texto {
+  font-weight: 600;
+  width: auto;
+  margin: 5px;
+  min-width: 40%;
+  text-align: center;
+  line-height: 30px;
+  align-self: center;
+}
