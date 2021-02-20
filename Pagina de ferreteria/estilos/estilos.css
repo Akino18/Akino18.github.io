@@ -15,16 +15,27 @@ body {
 
 /* navbar */
 
-.navbar {
+.nav-container {
   background-color: #000;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   margin: 0;
+}
+
+.navbar {
+  align-self: center;
+  margin: 0;
+}
+
+.logo__img {
+  max-height: 70px;
+  margin: 0 10px;
 }
 
 .navbar__item {
   text-decoration: none;
   padding: 12px;
+  margin: 0;
   color: #ebe80c;
   font-weight: 600;
   transition: 0.3s ease all;
