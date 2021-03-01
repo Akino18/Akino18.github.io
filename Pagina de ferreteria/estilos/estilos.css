@@ -15,16 +15,11 @@ body {
 
 /* navbar */
 
-.nav-container {
-  background-color: #000;
+.navbar {
   display: flex;
   justify-content: space-between;
-  margin: 0;
-}
-
-.navbar {
-  align-self: center;
-  margin: 0;
+  align-items: center;
+  background-color: #000;
 }
 
 .logo__img {
@@ -61,6 +56,10 @@ body {
 .titulo {
   text-align: center;
   margin: 0;
+}
+
+.header__sub-titulo {
+  margin-top: 0;
 }
 
 .header__texto {
