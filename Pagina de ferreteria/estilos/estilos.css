@@ -8,9 +8,47 @@
   color: #ebe80c;
 }
 
+:root {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   padding: 0;
+}
+
+/* Boton de scroll */
+
+.button {
+  background-color: #e2e20e;
+  border: 0;
+  z-index: 9;
+  border-radius: 100%;
+  outline: none;
+  padding: 15px;
+  position: fixed;
+  top: 10px;
+  right: 50px;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease-out;
+}
+
+.active {
+  visibility: visible;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+.active:hover {
+  background-color: #000;
+}
+.fas {
+  font-size: 20px;
+}
+
+.active:hover .fas {
+  color: #e2e20e;
 }
 
 /* navbar */
@@ -24,13 +62,18 @@ body {
 
 .logo__img {
   max-height: 70px;
-  margin: 0 10px;
+  margin: 0 15px;
+}
+
+.navbar__items {
+  margin-right: 15px;
 }
 
 .navbar__item {
   text-decoration: none;
   padding: 12px;
   margin: 0;
+  border-radius: 50px;
   color: #ebe80c;
   font-weight: 600;
   transition: 0.3s ease all;
@@ -49,8 +92,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  min-height: 93.6vh;
-  display: flex;
+  min-height: 100vh;
 }
 
 .titulo {
@@ -85,7 +127,7 @@ body {
 
 /* About us */
 
-.nosotros {
+/*.nosotros {
   background-color: #ebe80c;
   margin: 0;
 }
@@ -112,4 +154,4 @@ body {
   text-align: center;
   line-height: 30px;
   align-self: center;
-}
+}*/
